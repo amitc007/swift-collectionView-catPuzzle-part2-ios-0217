@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405F177F1E5A4B5A00FAB070 /* PuzzleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405F177E1E5A4B5A00FAB070 /* PuzzleTimer.swift */; };
 		5D309A601DAB12F300CF08B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D309A5F1DAB12F300CF08B9 /* AppDelegate.swift */; };
 		5D309A671DAB12F300CF08B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D309A661DAB12F300CF08B9 /* Assets.xcassets */; };
 		5D309A6A1DAB12F300CF08B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D309A681DAB12F300CF08B9 /* LaunchScreen.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		405F177E1E5A4B5A00FAB070 /* PuzzleTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleTimer.swift; sourceTree = "<group>"; };
 		5D309A5C1DAB12F300CF08B9 /* CollectionViewCatPicPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewCatPicPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D309A5F1DAB12F300CF08B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D309A661DAB12F300CF08B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				5D309A721DAB134400CF08B9 /* CollectionViewCell.swift */,
 				5D309A771DAB152800CF08B9 /* HeaderReusableView.swift */,
 				5D309A781DAB152800CF08B9 /* FooterReusableView.swift */,
+				405F177E1E5A4B5A00FAB070 /* PuzzleTimer.swift */,
 				5D309A7D1DAB36AC00CF08B9 /* SolvedViewController.swift */,
 				5D309A7B1DAB154100CF08B9 /* Extensions.swift */,
 				5D309A731DAB134400CF08B9 /* Main.storyboard */,
@@ -106,7 +109,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Flatiron School";
 				TargetAttributes = {
 					5D309A5B1DAB12F300CF08B9 = {
@@ -159,6 +162,7 @@
 				5D309A751DAB134400CF08B9 /* CollectionViewCell.swift in Sources */,
 				5D309A7E1DAB36AC00CF08B9 /* SolvedViewController.swift in Sources */,
 				5D309A7A1DAB152800CF08B9 /* FooterReusableView.swift in Sources */,
+				405F177F1E5A4B5A00FAB070 /* PuzzleTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +198,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -243,6 +248,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

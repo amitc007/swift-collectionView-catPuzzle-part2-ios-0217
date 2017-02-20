@@ -10,15 +10,17 @@ import UIKit
 
 class FooterReusableView: UICollectionReusableView {
     
-    var timer: Timer!
+    /*var timer: Timer!
     let timeInterval: TimeInterval = 0.05
     var timeCount: TimeInterval = 0.0
-    var timerLabel: UILabel!
+    var timerLabel: UILabel!  
+    */
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        configureView()
+        //configureView()
         
     }
     
@@ -28,12 +30,16 @@ class FooterReusableView: UICollectionReusableView {
         
     }
     
-    private func configureView() {
-        
-        timerLabel = UILabel()
+    //private func configureView(timerLabel:UILabel) {
+     func configureView(timerLabel:UILabel) {
+        print("In FooterReusableView: configureView")
+        //timerLabel = UILabel()
         timerLabel.font = UIFont.helveticaNeueLight(size: 20)
         
+                
+        //self.addSubview(timerLabel)
         self.addSubview(timerLabel)
+        
         
         timerLabel.translatesAutoresizingMaskIntoConstraints = false
         timerLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
@@ -41,7 +47,7 @@ class FooterReusableView: UICollectionReusableView {
         
     }
     
-    func startTimer() {
+    /*func startTimer() {   //causes crash so added in Timer
         
         timeCount = 0.0
         timerLabel.text = timeString(time: timeCount)
@@ -63,5 +69,7 @@ class FooterReusableView: UICollectionReusableView {
         let seconds = time - Double(minutes) * 60
         return String(format:"%02i:%02i",minutes,Int(seconds))
     }
+    
+    */
     
 }

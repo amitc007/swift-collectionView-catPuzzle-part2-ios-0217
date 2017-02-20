@@ -17,6 +17,8 @@ class HeaderReusableView: UICollectionReusableView {
         
         configureView()
         
+        configureTimer()  //added here as it does not work in footer
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -36,6 +38,10 @@ class HeaderReusableView: UICollectionReusableView {
         headerLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
         headerLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: 8).isActive = true
         
+        
+    }
+    
+    private func configureTimer() {
         
     }
     
